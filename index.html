@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="fr">
-
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -10,6 +9,8 @@
 		<meta property="og:url" content="https://bastien-oc20.github.io/ocr-projet4/" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="La Chouette Agence - Web Design à Lyon" />
+		<meta name="description"
+			content="La chouette agence est une entreprise de web design basée à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet. Contactez-nous vite !!">
 		<meta property="og:description"
 			content="La chouette agence est une entreprise de web design basée à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet. Contactez-nous vite !!" />
 		<meta property="og:image" content="https://bastien-oc20.github.io/ocr-projet4/img/logo.png" />
@@ -20,129 +21,116 @@
 		<meta name="twitter:description"
 			content="La chouette agence est une entreprise de web design basée à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet. Contactez-nous vite !!" />
 		<meta name="twitter:image" content="https://bastien-oc20.github.io/ocr-projet4/img/logo.png" />
+		<!-- google search console -->
+		<meta name="google-site-verification" content="2wGkRx0bGhKXBm2TJGiUxICEtrstf13Ohpgz-oYkdFQ" />
+		<!-- Link -->
 		<link rel="canonical" href="https://bastien-oc20.github.io/ocr-projet4/">
 		<!-- <link rel="manifest" href="manifest.webmanifest.json"> -->
 		<link rel="apple-touch-icon" href="./img/favicon.png">
 		<link rel="shortcut icon" type="image/png" href="./img/favicon.png">
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/font-awesome.css">
 		<link rel="stylesheet" href="./css/et-line.css">
-
-		<!-- google search console -->
-		<meta name="google-site-verification" content="2wGkRx0bGhKXBm2TJGiUxICEtrstf13Ohpgz-oYkdFQ" />
-
+		<!-- script -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 		<title>La Chouette Agence - Agence de Web Design à Lyon !!</title>
-		<meta name="description"
-			content="La chouette agence est une entreprise de web design basée à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet. Contactez-nous vite !!">
-
 	</head>
-
-	<body class="container">
-
+	<body class="container-fluid">
 		<!-- Header -->
 		<header class="bloc bgc-white l-bloc">
-			<nav class="navbar row bloc-sm">
-				<section class="navbar-header">
-					<a role="button" class="navbar-brand logo_header" aria-label="Retour page d'accueil"
-						href="index.html" tabindex="0">
-						<img src="./img/la-chouette-agence.png"
-							alt="Logo La Chouette Agence - Entreprise web design à Lyon" title="Logo La Chouette Agence"
-							aria-label="Accueil" />
-					</a>
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</section>
-				<section class="collapse navbar-1 navbar-collapse">
-					<ul class="site-navigation nav navbar-nav">
-						<li>
-							<a href="index.html" aria-label="Retour page d'accueil" class="tab_focus1"
-								accesskey="h">Accueil</a>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a role="button" class="navbar-brand logo_header" aria-label="Retour page d'accueil" href="index.html"
+					tabindex="0">
+					<img src="./img/la-chouette-agence.jpg" alt="Logo La Chouette Agence - Entreprise web design à Lyon"
+						title="Logo La Chouette Agence" aria-label="Accueil" />
+				</a>
+				<button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse"
+					data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class=" row collapse navbar-collapse" id="navbarNavAltMarkup">
+					<ul class="site-navigation  navbar-nav ">
+						<li class="nav-item active col-4">
+							<button type="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
+								tabindex="0" onclick="window.location.href = 'index.html';">Accueil</button>
 						</li>
-						<li>
-							<a href="./pages/contact.html" aria-label="Accès page Contact La Chouette Agence"
-								class="tab_focus1" accesskey="c">Contact</a>
-						</li>
-						<li>
-							<a href="./pages/archive/index.html" aria-label="Accès page Contact La Chouette Agence"
-								class="tab_focus1" accesskey="c">Archive</a>
+						<li class="nav-item col-4"> </li>
+						<li class="nav-item col-4">
+							<button type="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
+								tabindex="0" onclick="window.location.href = './pages/contact.html';">Contact</button>
 						</li>
 					</ul>
-				</section>
+				</div>
 			</nav>
-
 		</header>
 		<!-- Fin du Header -->
-
 		<!-- Principal container -->
-		<main class="bloc bgc-white l-bloc">
-
+		<main class="row">
 			<!-- Bannière -->
-			<header role="banner" class="bloc-lg row bg-banniere bg-t-edge b-parallax" id="banner_block">
-				<img src="./img/logo.png" class="center-block"
+			<header class="bloc bgc-white l-bloc bg-banniere b-parallax" id="banner">
+				<img src="./img/logo.png" class="img-fluid mx-auto"
 					alt="Logo principal La chouette agence - Entreprise web design à Lyon"
 					title="Logo Principal la Chouette Agence" id="logo_banner" />
-				<h1 title="La Chouette Agence">
-					<span>La chouette agence.</span>
+				<h1 title="La Chouette Agence" class="bloc l-bloc text-center">
+					<span id="decoration">La chouette agence</span>
 				</h1>
 			</header>
 			<!-- Fin  Bannière -->
 			<!-- Services -->
-			<article role="doc-part" class="bloc-md bloc bgc-white" id="services">
-				<header class="row">
-					<h2 class="col-sm-12 text-center" id="title_services">
-						La chouette agence est une agence de web design qui aide<br />
-						les entreprises à devenir attractives et visibles sur Internet.
-					</h2>
-				</header>
-				<section class="row voffset-lg med-width-whitespace col-sm-4 text-center">
-
-					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-					<h3 class="mg-md">
-						Web design
-					</h3>
-					<p>
-						Que vous ayez un site web qui a besoin d'un rafraîchissement ou que vous partiez de zéro,
-						laissez-nous vous réaliser un design dont vous serez fier.
-					</p>
+			<article role="article" class="bloc-md bloc bgc-white" id="services">
+				<h2 class="col-sm-12 text-center" id="title_services">
+					La chouette agence est une agence de web design qui aide<br />
+					les entreprises à devenir attractives et visibles sur Internet.
+				</h2>
+				<section class="row">
+					<article class=" voffset-lg med-width-whitespace col-lg-4 text-center">
+						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+						<h3 class="mg-md">
+							Web design
+						</h3>
+						<p>
+							Que vous ayez un site web qui a besoin d'un rafraîchissement ou que vous partiez de zéro,
+							laissez-nous vous réaliser un design dont vous serez fier.
+						</p>
+					</article>
+					<article class=" voffset-lg med-width-whitespace col-lg-4 text-center">
+						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+						<h3 class="mg-md">
+							Stratégie
+						</h3>
+						<p>
+							Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre
+							vos objectifs commerciaux afin de vous proposer le meilleur design possible.
+						</p>
+					</article>
+					<article class="voffset-lg med-width-whitespace col-lg-4 text-center">
+						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+						<h3 class="mg-md">
+							Illustrations
+						</h3>
+						<p>
+							Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de
+							graphistes
+							talentueux pour donner à vos pages une touche finale d'élégance.
+						</p>
+					</article>
 				</section>
-				<section class="row voffset-lg med-width-whitespace col-sm-4 text-center">
-					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-					<h3 class="mg-md">
-						Stratégie
-					</h3>
-					<p>
-						Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre
-						vos objectifs commerciaux afin de vous proposer le meilleur design possible.
-					</p>
-				</section>
-				<section class="row voffset-lg med-width-whitespace col-sm-4 text-center">
-					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
-					<h3 class="mg-md">
-						Illustrations
-					</h3>
-					<p>
-						Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes
-						talentueux pour donner à vos pages une touche finale d'élégance.
-					</p>
-				</section>
-				<footer class="row">
-					<blockquote class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-						<p>"La chouette agence est une excellente agence ! Les<br />
-							web designers ont réussi à capturer l'essence de notre<br />
-							entreprise et à l'intégrer à notre site. Cela nous a aidé à<br />
-							doubler nos ventes en ligne à Lyon."</p>
-						<p>Maxime Guibard, PDG d' à vos fourchettes</p>
-					</blockquote>
-				</footer>
+				<blockquote class="col-12 text-center">
+					<p>"La chouette agence est une excellente agence ! Les<br />
+						web designers ont réussi à capturer l'essence de notre<br />
+						entreprise et à l'intégrer à notre site. Cela nous a aidé à<br />
+						doubler nos ventes en ligne à Lyon."</p>
+					<p>Maxime Guibard, PDG d' à vos fourchettes</p>
+				</blockquote>
 			</article>
 			<!-- Fin des services -->
 			<!-- Motivations -->
-			<article role="doc-part" class="bloc bg-presentation b-parallax" id="motivations">
+			<article role="article" class="bloc l-bloc bg-presentation b-parallax" id="motivations">
 				<div class="bloc-lg">
 					<div class="row tight-width-whitespace" id="motivations_background">
 						<h2 class="mg-md text-center col-sm-12" id="title_motivations">
@@ -166,7 +154,7 @@
 			</article>
 			<!-- Motivations END -->
 			<!-- Realisations -->
-			<article role="doc-example" class="bloc bg-lines-h2-bg bg-repeat" id="realisations">
+			<article role="article" class="bloc bg-lines-h2-bg bg-repeat" id="realisations">
 				<div class="bloc-lg">
 					<header class="row">
 						<h2 class="col-sm-12 text-center" id="title_realisations">
@@ -176,7 +164,7 @@
 					</header>
 					<section class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6 text-center">
-							<a href="#" aria-label="Animation Portfolio de la chouette agence"
+							<a href="#" aria-label="carroussel Portfolio de la chouette agence"
 								data-lightbox="./img/journal_web.jpg" data-gallery-id="gallery-1"
 								data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
 								<img src="./img/journal_web.jpg" alt="Refonte du site web d'un journal local"
@@ -191,7 +179,7 @@
 							</p>
 						</div>
 						<div class="col-sm-6 text-center">
-							<a href="#" aria-label="Animation Portfolio de la chouette agence"
+							<a href="#" aria-label="carroussel Portfolio de la chouette agence"
 								data-lightbox="./img/photographe_web.jpg" data-gallery-id="gallery-1"
 								data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
 								<img src="./img/photographe_web.jpg" title="Création d'un site web pour photographes"
@@ -208,7 +196,7 @@
 					</section>
 					<section class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6 text-center">
-							<a href="#" aria-label="Animation Portfolio de la chouette agence"
+							<a href="#" aria-label="carroussel Portfolio de la chouette agence"
 								data-lightbox="./img/voyageur_web.jpg" data-gallery-id="gallery-1"
 								data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
 								<img src="./img/voyageur_web.jpg" title="Création d'un site internet pour un voyageur"
@@ -244,9 +232,9 @@
 			</article>
 			<!-- Realisations END -->
 			<!-- Contacts -->
-			<article role="doc-part" class="bloc bloc-lg bg-banniere" id="contacts">
+			<article role="article" class="bloc bloc-lg bg-banniere" id="contacts">
 				<div class="row text-center tight-width-whitespace" id="title_contacts">
-					<h2 class="mg-md">
+					<h2 class="mg-md mx-auto">
 						Prêt pour redonner vie à votre projet ?
 					</h2>
 					<div class="col-sm-12">
@@ -264,34 +252,33 @@
 			</a>
 			<!-- Fin du bouton du haut de page-->
 
-
 		</main>
 		<!-- Footer - Links -->
-		<footer role="doc-footnote" class="bloc bgc-atomic-tangerine footer_links l-bloc">
-			<h2 class=" text-center" id="footer_enterprise_identity">
+		<footer role="doc-footnote" class=" row m-0 container-fluid bgc-atomic-tangerine footer_links ">
+			<h2 class="col-12 text-center" id="footer_enterprise_identity">
 				La chouette agence - Agence web basée à Lyon.
 			</h2>
-			<article class="row bloc l-bloc social">
-				<ul id="network">
-					<li class="text-center col-sm-3">
+			<article class="col-12 social">
+				<ul id="network" class="row">
+					<li class="text-left col-3">
 						<a class="social" href="index.html" aria-label="Retrouvez-nous sur Twitter !"
 							title="Twitter"><span class="fa fa-twitter icon-md"></span></a>
 					</li>
-					<li class="col-sm-3 text-center">
+					<li class=" text-center col-3">
 						<a class="social" href="index.html" aria-label="Retrouvez-nous sur Facebook !"
 							title="Facebook"><span class="fa fa-facebook icon-md"></span></a>
 					</li>
-					<li class="col-sm-3 text-center">
+					<li class=" text-center col-3">
 						<a class="social" href="index.html" aria-label="Retrouvez-nous sur Dribbble !"
 							title="Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 					</li>
-					<li class="col-sm-3 text-center">
+					<li class="text-right col-3">
 						<a class="social" href="index.html" aria-label="Retrouvez-nous sur Instagram !"
 							title="Instagram"><span class="fa fa-instagram icon-md"></span></a>
 					</li>
 				</ul>
 			</article>
-			<aside class="links row bloc l-bloc">
+			<aside class="links col-12 bloc l-bloc">
 				<section class="col-lg-4">
 					<h3>Partenaires</h3>
 					<ul>
@@ -304,59 +291,18 @@
 								aria-label="Partenaire Pôle Emploi">Pôle Emploi - Entreprises</a></li>
 					</ul>
 				</section>
-				<section class="col-lg-4">
-					<h3>Le Web design</h3>
-					<ul>
-						<li><a href="https://www.webdesign-inspiration.com/fr/"
-								aria-label="Site Web-Design Inspiration">Web Design Inspiration</a></li>
-						<li><a href="https://www.codeur.com/blog/tendances-web-design/"
-								aria-label="Site du codeur.com - Tendances Web Design">Tendances Web design 2020</a>
-						</li>
-						<li><a href="http://www.csszengarden.com/"
-								aria-label="Site externe Portfolio - la beauté du CSS design">La beauté du CSS
-								design</a></li>
-						<li><a href="https://www.blogduwebdesign.com/le-webdesign-definition-et-objectifs/"
-								aria-label="Site externe Blog du Web design">Blog du Web design</a></li>
-
-
-					</ul>
-				</section>
-				<section class="col-lg-4 ">
-					<h3>Les entreprises et le Web</h3>
-					<ul>
-						<li><a href="https://www.webqam.fr/content/pourquoi-creer-un-site-internet#:~:text=Cr%C3%A9er%20un%20site%20internet%20pour%20mieux%20conna%C3%AEtre%20sa%20client%C3%A8le%20et,ils%20portent%20%C3%A0%20votre%20entreprise."
-								aria-label="Site webqam - pourquoi-creer-un-site-internet?">Pourquoi-creer-un-site-internet?</a>
-						</li>
-						<li><a href="https://www.lagazettedescommunes.com/482533/un-site-web-cest-bien-un-site-performant-cest-mieux/"
-								aria-label="Site la Gaztte des communes - Un site web, c’est bien, un site performant, c’est mieux !">Un
-								site performant, c’est mieux</a></li>
-						<li><a href="https://www.creerentreprise.fr/importance-site-internet-pour-une-entreprise/"
-								aria-label="Site Externe Creerentreprise - Importance d'un site web pour une entreprise">L'importance
-								d'un site web</a></li>
-						<li><a href="https://www.joptimisemonsite.fr/ux-design-concevoir-experience-utilisateur/"
-								aria-label="Site ux design - Concevoir une experience utilisateur">Concevoir l'UX</a>
-						</li>
-					</ul>
-				</section>
 			</aside>
+			<section class="row container-fluid mx-auto mentions">
+				<span class="col-lg-4">
+					<p><a href="./pages/mentions.html">Mentions légales</a></p>
+				</span>
+				<span class="col-lg-4"></span>
+				<span class="col-lg-4">
+					<p><a href="./pages/archive/index.html">archive</a></p>
+				</span>
+			</section>
 		</footer>
 		<!-- Footer - Links END -->
 		<!-- Principal container END -->
-		<!-- Google Analytics -->
-
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() { dataLayer.push(arguments); }
-			gtag('js', new Date());
-			gtag('config', 'UA-164136332-1');
-		</script>
-		<!-- Analytics END -->
-		<script src="./js/gmaps.js" defer></script>
-		<script src="./js/jquery-2.1.0.js" defer></script>
-		<script src="./js/blocs.js" defer></script>
-		<script src="./js/jquery.touchSwipe.js" defer></script>
-		<script src="./js/bootstrap.js" defer></script>
-
 	</body>
-
 </html>
