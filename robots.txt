@@ -1,0 +1,2 @@
+Sitemap : https://bastien-oc20.github.io/ocr-projet4/sitemap.xml
+http://www.google.com/ping?sitemap=https://bastien-oc20.github.io/ocr-projet4/sitemap.xml

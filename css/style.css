@@ -148,13 +148,18 @@ footer ul{
 #logo_banner{
     max-width: 100%;
     border-radius: 50%;
-    box-shadow: 1px 1px 20px rgba(255, 253, 253, 0.548), 1px 1px 20px rgb(255, 254, 254), 1px 1px 20px rgba(255, 255, 255, 0.212), 1px 1px 20px rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black, 1px 1px 20px black;
 }
+#banner_block{
+    text-align: center;
+}
+
 #banner_block span{
     font-size: 1.3em;
-    text-shadow: 1px 1px 10px rgba(83, 83, 83, 0.438), 1px 1px 10px rgb(126, 125, 125), 1px 1px 10px rgba(139, 139, 139, 0.589), 1px 1px 10px rgba(126, 125, 125, 0.075);
+    text-align: center;
+    text-shadow: 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black, 1px 1px 10px black;
     color: #F3976C;
-    background-color: rgba(255, 255, 255, 0.164);
+    background-color: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
 #title_services{
@@ -288,6 +293,7 @@ a[data-lightbox]:hover img {
 .cta-hero {
     margin-top: 22px;
     text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
     font-size: 1.2em;
     font-weight: 700;
 }
@@ -303,8 +309,8 @@ a[data-lightbox]:hover img {
 }
 #footer_enterprise_identity{
     font-size: 1.2em;
-    padding: 15px;
-    margin: 0em;
+    padding: 2em;
+    margin-top: 0em;
 }
 .footer_links li a{
     padding: 1em;
@@ -312,14 +318,12 @@ a[data-lightbox]:hover img {
 .footer_links h3{
     font-size: 1em;
 }
-.links {
-    margin-top: 10%;
+
+.links{
     margin-left: 0px;
 }
-.links ul{
-    padding-left: 0em;
-}
 .links li{
+    margin-left: 0em;
     list-style: none;
 }
 
@@ -384,7 +388,6 @@ form {
 .bloc-xl,
 .bloc-lg {
     padding: 40px 0;
-    text-align: center;
 }
 .bloc-sm,
 .bloc-md {
@@ -608,6 +611,9 @@ form {
     }
     .container {
         width: 1000px;
+    }
+    .links{
+        margin-left: 0%;
     }
     #address_info{
         background-color: rgba(243, 162, 124, 0.1);
