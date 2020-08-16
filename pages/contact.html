@@ -3,6 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
+		<title>La Chouette Agence - Contactez nous</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="theme-color" content="#000">
@@ -30,7 +31,7 @@
 		<link rel="apple-touch-icon" href="../img/favicon.png">
 		<link rel="shortcut icon" type="image/png" href="../img/favicon.png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" id="bootstrap-css">
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/et-line.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -54,8 +55,7 @@
 
 			gtag('config', 'G-XSRNEXC5VB');
 		</script>
-		<title>La Chouette Agence - Contactez nous</title>
-	</head>
+		</head>
 
 	<body class="container-fluid">
 		<!-- Header -->
@@ -63,7 +63,7 @@
 			<div class="row">
 				<nav class="navbar navbar-light navbar-expand-lg col-lg-12">
 					<a class="navbar-brand" href="../index.html">
-						<img src="../img/la-chouette-agence.jpg" class="img-fluid"
+						<img src="../img/la-chouette-agence.png" class="img-fluid"
 							alt="Logo La Chouette Agence - Entreprise web design à Lyon" title="Logo La Chouette Agence"
 							aria-label="Accueil" /></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -74,12 +74,12 @@
 
 					<div class="collapse navbar-collapse col-lg-4 float-lg-right" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
+							<li class="nav-item active mr-4">
 								<a class="nav-link btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero tab_focus2"
-									aria-label="Accès page Contact La Chouette Agence" href="../index.html">Accueil
+									aria-label="Accès page Accueil La Chouette Agence" href="../index.html">Accueil
 									<span class="sr-only">(current)</span></a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item mr-4">
 								<a class="nav-link btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero tab_focus2"
 									aria-label="Accès page Contact La Chouette Agence"
 									href="../pages/contact.html">Contact</a>
@@ -121,28 +121,28 @@
 									<label>
 										Nom
 									</label>
-									<input type="text-box" id="name" placeholder="Indiquez votre nom et prenom"
+									<input type="text-box" id="name" placeholder="exemple: Dupont jean"
 										class="form-control" role="text-box" />
 								</div>
 								<div class="form-group">
 									<label>
 										Adresse email
 									</label>
-									<input id="email" placeholder="Indiquez votre adresse e-mail" class="form-control"
+									<input id="email" placeholder="exemple@mail.com" class="form-control"
 										type="email" required />
 								</div>
 								<div class="form-group">
 									<label>
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" placeholder="Comment nous avez-vous trouvé"
+									<input class="form-control" placeholder="Internet, TV, journal, radio, etc..."
 										type="text-box" required id="input_504" />
 								</div>
 								<div class="form-group">
 									<label>
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 									</label><textarea id="message" class="form-control"
-										placeholder="Dites nous tous sur votre projet web" rows="4" cols="50"
+										placeholder="Refonte d'un site web - création d'un site web" rows="4" cols="50"
 										required></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
@@ -156,9 +156,9 @@
 								alt="Logo principal La chouette agence - Entreprise web design à Lyon">
 							<div class="card-body">
 								<h2 class="card-title" id="decoration">La chouette agence</h2>
-								<address class="card-text"><i class="fa fa-map mr-2"></i><a href="https://goo.gl/maps/uGw3cV3uv44NrvgX6" title="localiser" target="blank"> 2 place Sathonay 69001 Lyon</a></address>
+								<address class="card-text"><i class="fa fa-map mr-2"></i><a href="https://goo.gl/maps/uGw3cV3uv44NrvgX6" title="localiser" target="blank" aria-label="Accès page GoogleMap"> 2 place Sathonay 69001 Lyon</a></address>
 								<p class="card-text">Ouvert de 9h à 18h, du lundi au vendredi</p>
-								<p class="card-text"><i class="fa fa-envelope mr-2"></i><a
+								<p class="card-text"><i class="fa fa-envelope mr-2"></i><a aria-label="envoyez un email"
 										href="mailto:contact@lachouetteagence.com?subject=titre&cc@example.com&body=Indiquez clairement votre demande"
 										title="contactez-nous">contact@lachouetteagence.com</a></p>
 							</div>
@@ -199,11 +199,11 @@
 			</article>
 			<section class="row container-fluid mx-auto mentions">
 				<span class="col-lg-4">
-					<p><a href="./mentions.html">Mentions légales</a></p>
+					<p><a aria-label="Accès page Mentions légales La Chouette Agence" href="./mentions.html">Mentions légales</a></p>
 				</span>
 				<span class="col-lg-4"></span>
 				<span class="col-lg-4">
-					<p><a href="./archive/index.html">archive</a></p>
+					<p><a aria-label="Accès page Archive La Chouette Agence" href="./archive/index.html">archive</a></p>
 				</span>
 			</section>
 		</footer>
