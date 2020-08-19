@@ -1,6 +1,6 @@
 # OpenClassroom Projet 4
 
-https://bastien-oc20.github.io/ocr-projet4/
+Optimisez un site web existant : https://bastien-oc20.github.io/ocr-projet4/
 
 
 ## Pour commencer
@@ -10,12 +10,17 @@ Ce projet s'inscrit dans le cadre de la formation "Développeur web" proposée p
 
 
 Consignes :
--
+- Analyse de l’état actuel de SEO du site fourni.
+- 10 recommandations pour améliorer le SEO du site.
+- Amélioration du SEO du site.
+- Accessibilité du site web.
+- Comparaison des résultats.
 
 ### Pré-requis
 
-- Simplifiez-vous le CSS avec Sass
-- Créez des animations CSS modernes
+- Optimisez le référencement de votre site (SEO) en améliorant ses performances techniques
+- Augmentez votre trafic grâce au référencement naturel (SEO)
+- Concevez un contenu web accessible
 
 ### Installation
 
@@ -27,6 +32,12 @@ Consignes :
 
 * [Git](https://git-scm.com/download/win) - logiciel de versioning et de stockage
 * [Visual Studio Code](https://code.visualstudio.com/) - Editeur de textes
+
+
+## Outils d'audit
+
+* [Wave](https://wave.webaim.org/) - Outil de vérifiaction d'accéssibilité
+* [Measure](https://web.dev/measure/) - Outil d'évaluation des performances web
 
 
 ## Legende des commit
